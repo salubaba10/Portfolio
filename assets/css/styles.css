@@ -138,7 +138,7 @@ nav ul li {
 
 .project-pic {
   width: 65%;
-  height: 60%;
+  height: 50%;
 }
 
 .projects-container {
@@ -159,6 +159,8 @@ nav ul li {
 .project-container p {
   padding: 0.4rem;
 }
+
+
 
 .project-title {
   margin-bottom: var(--bottom-margin);
@@ -227,4 +229,16 @@ nav ul li {
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
   cursor: pointer;
+}
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
 }
